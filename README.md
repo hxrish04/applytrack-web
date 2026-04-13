@@ -79,6 +79,20 @@ Password: ApplyFlow123!
 
 This account was created in Supabase Auth after email confirmation was disabled for the project.
 
+## Screenshots
+
+### Login
+
+![ApplyFlow login screen](./docs/screenshots/login.png)
+
+### Live job dashboard
+
+![ApplyFlow dashboard with live job search](./docs/screenshots/dashboard.png)
+
+### Tracker workflow
+
+![ApplyFlow tracker with filters and status workflow](./docs/screenshots/tracker.png)
+
 ## GitHub-ready checklist
 
 Before pushing this project:
