@@ -1,6 +1,6 @@
-# ApplyFlow Web
+# ApplyTrack Web
 
-ApplyFlow Web is a focused job application tracker built with React, TypeScript, Vite, Supabase, and a lightweight Node API. It lets users create real accounts, search live jobs, save listings into a personal tracker, update statuses, and keep job-search activity in one clean dashboard.
+ApplyTrack Web is a focused job application tracker built with React, TypeScript, Vite, Supabase, and a lightweight Node API. It lets users create real accounts, search live jobs, save listings into a personal tracker, update statuses, and keep job-search activity in one clean dashboard.
 
 ## What it does
 
@@ -73,8 +73,8 @@ Note: old demo emails are no longer used. Authentication now runs through your S
 If you want a quick portfolio walkthrough without creating a new user, sign in with:
 
 ```text
-Email: demo@applyflow.app
-Password: ApplyFlow123!
+Email: demo@applytrack.app
+Password: ApplyTrack123!
 ```
 
 This account was created in Supabase Auth after email confirmation was disabled for the project.
@@ -83,15 +83,15 @@ This account was created in Supabase Auth after email confirmation was disabled 
 
 ### Login
 
-![ApplyFlow login screen](./docs/screenshots/login.png)
+![ApplyTrack login screen](./docs/screenshots/login.png)
 
 ### Live job dashboard
 
-![ApplyFlow dashboard with live job search](./docs/screenshots/dashboard.png)
+![ApplyTrack dashboard with live job search](./docs/screenshots/dashboard.png)
 
 ### Tracker workflow
 
-![ApplyFlow tracker with filters and status workflow](./docs/screenshots/tracker.png)
+![ApplyTrack tracker with filters and status workflow](./docs/screenshots/tracker.png)
 
 ## GitHub-ready checklist
 

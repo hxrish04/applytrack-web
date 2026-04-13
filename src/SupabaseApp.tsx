@@ -91,7 +91,7 @@ function toDisplayUser(session: Session): UserProfile {
     id: session.user.id,
     name:
       (typeof session.user.user_metadata?.name === 'string' && session.user.user_metadata.name) ||
-      (session.user.email ? session.user.email.split('@')[0] : 'ApplyFlow User'),
+      (session.user.email ? session.user.email.split('@')[0] : 'ApplyTrack User'),
     email: session.user.email || '',
   }
 }
@@ -439,14 +439,14 @@ export default function SupabaseApp() {
     return (
       <main className="app-shell">
         <section className="brand-bar">
-          <div className="brand-lockup" aria-label="ApplyFlow">
+          <div className="brand-lockup" aria-label="ApplyTrack">
             <div className="brand-mark">
               <span className="brand-dot brand-dot-one" />
               <span className="brand-dot brand-dot-two" />
               <span className="brand-dot brand-dot-three" />
             </div>
             <div>
-              <p className="brand-name">ApplyFlow</p>
+              <p className="brand-name">ApplyTrack</p>
               <p className="brand-tag">Job search tracker</p>
             </div>
           </div>
@@ -465,14 +465,14 @@ export default function SupabaseApp() {
     return (
       <main className="app-shell">
         <section className="brand-bar">
-          <div className="brand-lockup" aria-label="ApplyFlow">
+          <div className="brand-lockup" aria-label="ApplyTrack">
             <div className="brand-mark">
               <span className="brand-dot brand-dot-one" />
               <span className="brand-dot brand-dot-two" />
               <span className="brand-dot brand-dot-three" />
             </div>
             <div>
-              <p className="brand-name">ApplyFlow</p>
+              <p className="brand-name">ApplyTrack</p>
               <p className="brand-tag">Job search tracker</p>
             </div>
           </div>
@@ -550,14 +550,14 @@ export default function SupabaseApp() {
   return (
     <main className="app-shell">
       <section className="brand-bar">
-        <div className="brand-lockup" aria-label="ApplyFlow">
+        <div className="brand-lockup" aria-label="ApplyTrack">
           <div className="brand-mark">
             <span className="brand-dot brand-dot-one" />
             <span className="brand-dot brand-dot-two" />
             <span className="brand-dot brand-dot-three" />
           </div>
           <div>
-            <p className="brand-name">ApplyFlow</p>
+            <p className="brand-name">ApplyTrack</p>
             <p className="brand-tag">Job search tracker</p>
           </div>
         </div>
