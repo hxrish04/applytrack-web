@@ -93,27 +93,8 @@ This account was created in Supabase Auth after email confirmation was disabled 
 
 ![ApplyTrack tracker with filters and status workflow](./docs/screenshots/tracker.png)
 
-## GitHub-ready checklist
-
-Before pushing this project:
-
-1. Keep `.env.local` out of Git.
-2. Commit `.env.example` so reviewers know which variables are required.
-3. Run `npm run lint`.
-4. Run `npm run build`.
-5. Make sure the Supabase SQL schema has been applied once in the dashboard.
-
-## Project goals
-
-This version is intentionally scoped as a clean portfolio-ready product prototype:
-
-- polished UI with a custom palette
-- authenticated user accounts and hosted application storage
-- live job search with duplicate protection when saving roles
-- easy setup for GitHub reviewers and recruiters
-
 ## Next improvements
 
-- add resume/email parsing with Claude or OpenAI
-- support resume or screenshot parsing for faster entry creation
-- add analytics for interview rate, response rate, and offer conversion
+- Add resume or email parsing with Claude or OpenAI
+- Support screenshot-based application entry
+- Add analytics for interview rate, response rate, and offer conversion
