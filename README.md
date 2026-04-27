@@ -2,6 +2,24 @@
 
 ApplyTrack Web is a focused job application tracker built with React, TypeScript, Vite, Supabase, and a lightweight Node API. It lets users create real accounts, search live jobs, save listings into a personal tracker, update statuses, and keep job-search activity in one clean dashboard.
 
+## System Diagram
+
+```mermaid
+flowchart TB
+  A["Job Seeker"]
+  B["Frontend App<br/>React + TypeScript + Vite"]
+  C["Core Flows<br/>Auth • Job Search • Application Tracker"]
+  D["Backend API<br/>Express service layer"]
+  E["Supabase<br/>Auth + Postgres storage"]
+  F["External Jobs API<br/>Adzuna"]
+  G["Recruiter-Friendly Outputs<br/>Status pipeline + searchable history"]
+
+  A --> B --> C --> D
+  D --> E
+  D --> F
+  E --> G
+```
+
 ## What it does
 
 - Track applications with company, role, location, source, link, and notes
